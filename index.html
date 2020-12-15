@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tarefas à fazer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/scss/estilo.css" rel="stylesheet">
+        <link href="/scss/mobile.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Tarefas à fazer
+            </h1>
+            <br>
+            <p id="sub">
+                Adicione e complete tarefas para organizar melhor a sua semana. :)
+            </p>
+      
+        </header>
+
+       
+        <div id="preencher">
+            <form>
+                <input type="text" name="Busque tarefas" placeholder="Busque tarefas" id="input" list="historico">
+                <button id="busca">Buscar</button>
+            </form>
+
+            <datalist id="historico">
+                <option value="reunião"></option>                    <
+                <option value="ligação"></option>
+                <option value="estudar"></option>
+                <option value="consertar"></option>
+                <option value="comprar"></option>
+            </datalist>
+               
+            <div>
+                <p>Organizar por:</p>
+                    <select>
+                        <option value="relevance">
+                            Prazo
+                        </option>
+                        <option value="ascPrice">
+                            Data de inclusão
+                        </option>
+                        <option value="ascPrice">
+                            Tipo
+                        </option>
+                    </select>
+            </div>    
+        </div>
+        
+        
+        
+        <section>
+                <div class="infos">
+                    <div>
+                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
+                        <span>Prazo curto!</span>
+                    </div>
+                    <div class="mobile">
+                        <div>
+                            <h3>Consertar notebook</h3>
+                            <p class="dados">Verificar melhores locais para revisão do erro "tela azul".</p>
+                        </div>
+                        <div class="prazo">
+                            <p class="def">Prazo:</p>
+                            <div class="dias">1 dia</div>
+                        </div>
+                        <button class="concluir">Concluir</button>
+                        <div class="importante">Data de inclusão: há 2 semanas</div>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div>
+                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
+                    </div>
+                    <div class="mobile">
+                        <div>
+                            <br>
+                            <h3>Estudar</h3>
+                            <p class="dados">Criar agenda e organizar cursos UDEMY para a semana.</p>
+                        </div>
+                        <div class="prazo">
+                            <p class="def">Prazo:</p>
+                            <div class="dias">1 dia</div>
+                        </div>
+                        <button class="concluir">Concluir</button>
+                        <div class="importante">Data de inclusão: há 2 semanas</div>
+                    </div>
+                </div>
+                
+                <div class="infos">
+                    <div>
+                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
+                    
+                    </div>
+
+                    <div class="mobile">    
+                        <div>
+                            <br>
+                            <h3>Ligação</h3>
+                            <p class="dados">Ligar para universidade e verificar o novo prazo da emissão da carteirinha.</p>
+                        </div>
+                        <div class="prazo">
+                            <p class="def">Prazo:</p>
+                            <div class="dias">1 dia</div>
+                        </div>
+                        <button class="concluir">Concluir</button>
+                        <div class="importante">Data de inclusão: há 3 semanas</div>
+                    </div>
+                </div>    
+
+                <div class="infos">
+                    <div>
+                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
+                    
+                    </div>
+                    <div class="mobile">
+                        <div>
+                            <br>
+                            <h3>Reunião</h3>
+                            <p class="dados">Pedir retorno da reunião do projeto do site da hamburgueria.</p>
+                        </div>
+                        <div class="prazo">
+                            <p class="def">Prazo:</p>
+                            <div class="dias">1 dia</div>
+                        </div>
+                        <button class="concluir">Concluir</button>
+                        <div class="importante">Data de inclusão: há 1 semana</div>
+                    </div>
+                </div>    
+        </section>
+
+        <div id="linx-section">
+            <img src="https://www.linx.com.br/app/themes/linx/crystals/dist/assets/static/logo.png" id="linx" alt="linx">
+            <p id="texto">
+                A Linx é uma empresa brasileira especialista em tecnologia para o varejo.<br>
+                Líder no mercado de software de gestão, com 45,6% de market share do mercado<br> 
+                varejista, conforme atesta o IDC.<br>
+                Toda a expertise da Linx na jornada de compra é transformada em insights<br>
+                fundamentais para atingir o que os varejistas mais esperam: fidelizar seus<br>
+                consumidores e atingir resultados concretos e relevantes.<br>
+                Com capital aberto na B3 desde 2013, a Linx também se tornou a primeira empresa<br>
+                brasileira de software com capital aberto na NYSE, em 2019.<br>
+                A empresa possui mais de 3,5 mil colaboradores distribuídos entre sua sede <br>
+                em São Paulo, 15 filiais pelo Brasil e 5 países da América. Para saber mais,<br> 
+                acesse <a href="http://linx.com.br/imprensa">http://linx.com.br/imprensa.</a>
+            </p>
+        </div>
+
+
+        <footer>
+            <p id="final">Testando suas habilidades em HTML e CSS.<br>
+                Linx Impulse 2020</p>
+        </footer>
+    </body>
+</html>
