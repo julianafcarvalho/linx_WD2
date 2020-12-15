@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(/img/bar.png);
+    text-align: center;
+    padding: 150px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p{
+    font-size:12px;
+}
+  
+#sub {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#preencher {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FEAF3D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+#input {
+    margin-top: 5px;
+}
+
+#busca {
+    background-color: #6E4B87;
+    color: #ffffff;
+    width: 56px;
+    border-radius: 5px;
+}
